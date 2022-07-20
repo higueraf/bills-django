@@ -5,7 +5,6 @@
 Set .env file the following environment variables
 
 ```
-
 DATABASE_URL=mongodb://username:password@server/db
 SECRET_KEY_DJANGO=XXXXXXXXXXXXXXXXXXXXXXX
 
