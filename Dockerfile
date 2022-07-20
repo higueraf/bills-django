@@ -2,7 +2,9 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
 FROM python:3.9-alpine3.13
 ARG DATABASE_URL
-ENV DATABASE_URL="postgres://counter:counter@192.168.200.15:5440/bills"
+ENV DATABASE_URL=$DATABASE_URL
+ARG SECRET_KEY_DJANGO
+ENV SECRET_KEY_DJANGO=$SECRET_KEY_DJANGO
 
 EXPOSE 8000
 
