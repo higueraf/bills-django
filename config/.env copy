@@ -1,0 +1,11 @@
+#DJANGO_SECRET_KEY=************************************************
+#DJANGO_ALLOWED_HOSTS=localhost,proyecto.capa8.net
+#DJANGO_DEBUG=True
+DATABASE_URL="postgres://counter:counterlocalhost:5440/ilum"
+#ENV="development"
+
+# Database settings
+#DB_NAME="proyecto_db"
+#DB_USER=proyecto_user
+#DB_PASSWORD=********
+#DB_HOST=localhost

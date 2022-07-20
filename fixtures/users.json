@@ -1,0 +1,56 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "last_login": null,
+      "is_superuser": true,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-02-20T10:16:50.084Z",
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "email": "admin@mmcale.com.mx",
+      "password": "pbkdf2_sha256$216000$mmNPkLuUnf2g$+CGK1IVS2vElQCBOYh+EuYxmTWlFGZx+huJQY++EIWU=",
+      "role": 1,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "last_login": null,
+      "is_superuser": true,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-02-20T10:16:50.084Z",
+      "first_name": "Editor",
+      "last_name": "Editor",
+      "email": "editor@mmcale.com.mx",
+      "password": "pbkdf2_sha256$216000$DXhPIBQM0ww1$6u33dcA8A2F6YKRv7ufgHBZSwhqMvQ0K84y6tPZjwoM=",
+      "role": 2,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "last_login": null,
+      "is_superuser": true,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-02-20T10:16:50.084Z",
+      "first_name": "Viewer",
+      "last_name": "Viewer",
+      "email": "viewer@mmcale.com.mx",
+      "password": "pbkdf2_sha256$216000$DXhPIBQM0ww1$6u33dcA8A2F6YKRv7ufgHBZSwhqMvQ0K84y6tPZjwoM=",
+      "role": 3,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
