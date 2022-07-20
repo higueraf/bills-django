@@ -6,8 +6,7 @@ Set .env file the following environment variables
 
 ```
 
-DATABASE_URL=mongodb://username:password@server/db
-
+DATABASE_URL="postgres://username:password@server:port/db"
 
 ```
 
